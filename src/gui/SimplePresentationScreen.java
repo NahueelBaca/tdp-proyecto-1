@@ -16,7 +16,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import das.SimplePresentationScreenn;
+
 
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
@@ -47,7 +47,7 @@ public class SimplePresentationScreen extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 40, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(SimplePresentationScreenn.class.getResource("/images/tdp.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(SimplePresentationScreen.class.getResource("/images/tdp.png")));
 		setTitle("TdP-DCIC-UNS 2021 :: Pantalla de presentación");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(new Dimension(615, 230));
@@ -140,7 +140,7 @@ public class SimplePresentationScreen extends JFrame {
 		BufferedImage myPicture = null;
 		
 		JLabel ImagenUns = new JLabel("");
-		ImagenUns.setIcon(new ImageIcon(SimplePresentationScreenn.class.getResource("/images/hola.png")));
+		ImagenUns.setIcon(new ImageIcon(SimplePresentationScreen.class.getResource("/images/hola.png")));
 		ImagenUns.setBounds(296, 104, 128, 115);
 		contentPane.add(ImagenUns);
 		
